@@ -1,0 +1,158 @@
+/**General**/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Nunito', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+.contenedor-fondo{
+    background-image: url(/img/header-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100dvh;
+}
+
+.navegacion{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem;
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: #fff;
+    padding: 1rem;
+}
+
+.logo{
+        width:40rem;
+        left:5%;
+        position: relative;
+}
+
+
+.text-header{
+    color: #fff;
+    padding: 47rem 0 3rem 40rem;
+}
+.text-header h2{
+    font-size: 3rem;
+    color: #ffc400;
+}
+
+.text-header h1{
+    font-size: 5rem;
+}
+
+.productos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffc400;
+}
+
+.productos h2{
+    font-size: 4rem;
+    padding-top: 8rem;
+
+}
+
+.lista-productos{
+    display: inline-flex;
+}
+
+.lista-productos img{
+    width: 30rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    border-color: black;
+    border-style: ridge ;
+    border-width: 1px;
+}
+
+.card a{
+    background-color: #ffc400;
+    border-radius: 0 0  2rem 0;
+    margin: 2rem;
+    padding: 1rem 2rem 1rem 2rem; 
+    /* arriba, derecha, abajo ,izquierda */
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.card p{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.card h3{
+    font-size: 2rem;
+    color: #ffc400;
+}
+
+#r{
+    height: 27.5rem;
+}
+
+.about{
+    justify-content: center;
+    height: 70dvh;
+    background-color: black;
+    color: #fff;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.about p{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.about h2{
+    color: #ffc400;
+    font-size: 5rem;
+}
+
+.about a{
+    font-size: 2rem;
+    background-color: #ffc400;
+    border-radius: 0 0  2rem 0;
+    margin: 2rem;
+    padding: 1rem 2rem 1rem 2rem; 
+    /* arriba, derecha, abajo ,izquierda */
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.final{
+    background-color: black;
+}
+
+.noo{
+        font-size: 2rem;
+        display: flex;
+        justify-content: space-around;
+        padding: 5rem;
+        display: inline;
+}
